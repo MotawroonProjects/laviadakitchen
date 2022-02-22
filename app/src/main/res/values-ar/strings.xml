@@ -6,4 +6,5 @@
     <string name="no_data_to_show">لا يوجد بيانات لعرضها</string>
     <string name="total">المجموع : </string>
     <string name="g_m">ج.م</string>
+    <string name="table_name">اسم الطاوله : </string>
 </resources>

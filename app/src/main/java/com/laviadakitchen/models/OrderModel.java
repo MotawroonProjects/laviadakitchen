@@ -35,6 +35,7 @@ public class OrderModel implements Serializable {
     private String created_at;
     private String updated_at;
     private List<Detials> details;
+    private TableModel table;
 
     public int getId() {
         return id;
@@ -158,6 +159,10 @@ public class OrderModel implements Serializable {
 
     public List<Detials> getDetails() {
         return details;
+    }
+
+    public TableModel getTable() {
+        return table;
     }
 
     public class Detials implements Serializable {
