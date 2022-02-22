@@ -34,7 +34,7 @@ public class OrderModel implements Serializable {
     private String delivery_companies_id;
     private String created_at;
     private String updated_at;
-    private List<Detials> details;
+    private List<Detials> kitchen_details;
     private TableModel table;
 
     public int getId() {
@@ -158,7 +158,7 @@ public class OrderModel implements Serializable {
     }
 
     public List<Detials> getDetails() {
-        return details;
+        return kitchen_details;
     }
 
     public TableModel getTable() {
